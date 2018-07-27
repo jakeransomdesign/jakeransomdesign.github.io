@@ -592,8 +592,7 @@ a.anchor {
 }
 
 #contact-me-wrapper {
-	background-color: #74afdb;
-	background-image: url("../images/street2.jpg");
+	background: #74afdb url("../images/street2.jpg");
 	background-repeat: no-repeat;
 	background-size: 1650px;
 	background-attachment: fixed;
