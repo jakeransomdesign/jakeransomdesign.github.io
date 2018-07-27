@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<title>Jake Ransom | Animator &amp; Designer</title>
+		<meta name="description" content="Jake Ransom is an animator, illustrator, and designer from Perth, Western Australia">
+		<meta name="keywords" content="Jake Ransom, web design, digital design, graphic design, animation, illustration, Perth designer, Perth web designer, Perth illustrator">
+		<meta name="viewport" content="width=device-width" initial-scale="1.0">
+		<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+		<link rel="stylesheet" type="text/css" href="css/fa-solid.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+		<link rel="icon" href="images/logo1-favicon.png">
+	</head>
+	<body>
+
+		<!-- Navbar -->
+		<div id="navbar">
+
+			<!-- Desktop Navbar -->
+			<div class="navbar-1">
+				<div class="logo">
+					<a href="#"><img src="images/logo1.png" id="logo" alt="logo"></a>
+				</div>
+				<nav class="main-nav">
+					<div class="horizontal-menu">
+						<a href="#">Home</a>
+						<a href="#work">Work</a>
+						<a href="#contact">Contact</a>
+						<a href="#about">About</a>
+					</div>
+				</nav>
+				<nav class="social-media">
+					<a href="https://www.twitter.com/ransomniactoons/" target="_blank">
+						<div class="social-media-icons" id="twitter-icon"></div>
+					</a>
+					<a href="https://www.youtube.com/ransomniaccartoons/" target="_blank">
+						<div class="social-media-icons" id="youtube-icon"></div>
+					</a>
+
+					<a href="https://www.instagram.com/ransomniaccc/" target="_blank">
+						<div class="social-media-icons" id="instagram-icon"></div>
+					</a>
+				</nav>
+			</div>
+
+			<!-- Small Screen Navbar -->
+			<div class="navbar-2">
+				<div class="logo">
+					<a href="#"><img src="images/logo1.png" id="logo2" alt="logo"></a>
+				</div>
+
+				<!-- Accordion Menu -->
+				<div id="accordion" class="overlay">
+					<div class="overlay-content">
+						<a href="#" onclick="closeNav()">Home</a>
+						<div class="div-line"></div>
+						<a href="#work" onclick="closeNav()">Work</a>
+						<div class="div-line"></div>
+						<a href="#contact" onclick="closeNav()">Contact</a>
+						<div class="div-line"></div>
+						<a href="#about" onclick="closeNav()">About</a>
+					</div>
+				</div>
+				<div class="dropdown-menu">
+					<div id="menuButton" onclick="openNav()" >MENU</div>
+				</div>
+
+				<!-- Social Meadia Links -->
+				<div class="social">
+					<nav class="social-media">
+						<a href="https://www.twitter.com/ransomniactoons/" target="_blank">
+							<div class="social-media-icons" id="twitter-icon2"></div>
+						</a>
+						<a href="https://www.youtube.com/ransomniaccartoons/" target="_blank">
+							<div class="social-media-icons" id="youtube-icon2"></div>
+						</a>
+
+						<a href="https://www.instagram.com/ransomniaccc/" target="_blank">
+							<div class="social-media-icons" id="instagram-icon2"></div>
+						</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<!-- Wrapper to give main content a top-margin under the navbar -->
+		<div id="main-wrapper">
+			<div id="transparentOverlay"></div>
+
+			<!-- Header Showcase -->
+			<header class="showcase">
+				<div class="banner-img"></div>
+				<div class="banner-text">
+					<div class="text-wrapper">
+						<div class="text-container">
+							<h1>Jake</h1>
+							<h1 class="offset">Ransom</h1>
+							<p class="text-wrapper-small">Animator, Illustrator, Designer</p>
+						</div>
+					</div>
+				</div>
+
+			</header>
+
+			<!-- Main Content -->
+			<main id="main">
+				<!-- Section A -->
+				<section id="section-a">
+					<div id="intro">
+						<p>Hi, I'm Jake, a multi-disiplinary designer with a strong background in visual arts.	Some of the services I provide include:
+						</p>
+					</div>
+					<!-- Services -->
+					<div class="services-wrapper">
+						<div class="services-container">
+							<div class="services-box">
+								<div class="services-webdesign">
+									<div class="services-icon" id="icon-webdesign">
+										<img src="images/web.gif" alt="Website Design">
+									</div>
+									<div class="services-title">WEBSITE DESIGN</div>
+									<p class="services-description">Appealing and functional websites with an emphasis on responsiveness across devices. </p>
+								</div>
+							</div>
+							<div class="services-box">
+								<div class="services-graphicdesign">
+									<div class="services-icon" id="icon-graphic">
+										<img src="images/graphic.gif" alt="Graphic Design">
+									</div>
+									<div class="services-title">GRAPHIC DESIGN</div>
+									<p class="services-description">Logos, posters, pamphlets, and invitations.</p>
+								</div>
+							</div>
+							<div class="services-box">
+								<div class="services-animation">
+									<div class="services-icon" id="icon-animation">
+										<img src="images/animation.gif" alt="Animation">
+									</div>
+									<div class="services-title">ANIMATION</div>
+									<p class="services-description">2D character animation from storyboards through to finished product.</p>
+								</div>
+							</div>
+							<div class="services-box-last">
+								<div class="services-illustration">
+									<div class="services-icon" id="icon-illustration">
+										<img src="images/illustration.gif" alt="Illustration">
+									</div>
+									<div class="services-title">ILLUSTRATION</div>
+									<p class="services-description">Portraits, backgrounds, caricatures, and book covers.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Section B (Gallery) -->
+				<section id="section-b">
+					<div id="section-b-wrapper">
+						<a id="work" class="anchor"></a>
+
+						<!-- Photo Grid -->
+						<div class="row">
+
+							<!-- 3 Columns Grid -->
+							<!-- Column 1 -->
+							<div class="column" id="column-1">
+								<a class="inline cboxElement" href="projects/Q44kE.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/girl.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/RZgGv.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/super4.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation Backgrounds</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/KE9rW.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/newleaf.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Logo Design</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/J2sFM.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/me.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/G1z6d.html">
+									<div class="thumb-container">
+									<div class="video-thumb">
+										<i class="fas fa-video"></i>
+									</div>
+										<img src="images/gallery/thumbs/librarian3.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/Kb1bB.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/study.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/O3PvW.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/himyim.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation Background</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/x3QoR.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/jimandal.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+							</div>
+
+
+							<!-- Column 2 -->
+							<div class="column" id="column-2">
+								<a class="inline cboxElement" href="projects/BvmKJ.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/scarface.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation Backgrounds</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/GmO4d.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/glamorous.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Logo Design</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/yEOn6.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/bighero.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/Fzf3n.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/police2.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation Backgrounds</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/Psh3r.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/hannibal.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/c45sI.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/hootr.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Logo Design</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/DqWJ9.html">
+									<div class="thumb-container">
+									<div class="video-thumb">
+										<i class="fas fa-video"></i>
+									</div>
+										<img src="images/gallery/thumbs/cyanide.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Cyanide &amp; Happiness</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/p3zNy.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/moana.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+							</div>
+
+
+							<!-- Column 3 -->
+							<div class="column" id="column-3">
+
+								<a class="inline cboxElement" href="projects/sH29o.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/drogo.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/jK475.html">
+									<div class="thumb-container">
+									<div class="video-thumb">
+										<i class="fas fa-video"></i>
+									</div>
+										<img src="images/gallery/thumbs/superbabythumb.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/NzW3d.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/gal.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/Yd1DI.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/titanic1.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation Backgrounds</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/mPC88.html">
+									<div class="thumb-container">
+									<div class="video-thumb">
+										<i class="fas fa-video"></i>
+									</div>
+										<img src="images/gallery/thumbs/scarfacethumb.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/Fzf3n.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/hospital1.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation Backgrounds</div>
+										</div>
+									</div>
+								</a>
+
+								<a class="inline cboxElement" href="projects/PfF1n.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/harley.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+
+								<a class="inline cboxElement" href="projects/z4ltr.html">
+									<div class="thumb-container">
+									<div class="video-thumb">
+										<i class="fas fa-video"></i>
+									</div>
+										<img src="images/gallery/thumbs/blubburbs.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">The Blubburbs</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/q2DDo.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/lion.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Logo Design</div>
+										</div>
+									</div>
+								</a>
+							</div>
+
+
+							<!-- 2 Column Grid -->
+							<!-- Column 4 -->
+							<div class="column" id="column-4">
+								<a class="inline cboxElement" href="projects/Q44kE.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/girl.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/sH29o.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/drogo.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/GmO4d.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/glamorous.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Logo Design</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/KE9rW.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/newleaf.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Logo Design</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/NzW3d.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/gal.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/Fzf3n.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/police2.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation Backgrounds</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/G1z6d.html">
+									<div class="thumb-container">
+									<div class="video-thumb">
+										<i class="fas fa-video"></i>
+									</div>
+										<img src="images/gallery/thumbs/librarian3.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/mPC88.html">
+									<div class="thumb-container">
+									<div class="video-thumb">
+										<i class="fas fa-video"></i>
+									</div>
+										<img src="images/gallery/thumbs/scarfacethumb.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/c45sI.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/hootr.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Logo Design</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/O3PvW.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/himyim.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation Background</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/PfF1n.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/harley.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/p3zNy.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/moana.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/q2DDo.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/lion.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Logo Design</div>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<!-- Column 5 -->
+							<div class="column" id="column-5">
+								<a class="inline cboxElement" href="projects/BvmKJ.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/scarface.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation Backgrounds</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/RZgGv.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/super4.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation Backgrounds</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/jK475.html">
+									<div class="thumb-container">
+									<div class="video-thumb">
+										<i class="fas fa-video"></i>
+									</div>
+										<img src="images/gallery/thumbs/superbabythumb.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/yEOn6.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/bighero.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/J2sFM.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/me.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/Yd1DI.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/titanic1.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation Backgrounds</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/Psh3r.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/hannibal.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/Kb1bB.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/study.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/Fzf3n.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/hospital1.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Animation Backgrounds</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/DqWJ9.html">
+									<div class="thumb-container">
+									<div class="video-thumb">
+										<i class="fas fa-video"></i>
+									</div>
+										<img src="images/gallery/thumbs/cyanide.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Cyanide &amp; Happiness</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/x3QoR.html">
+									<div class="thumb-container">
+										<img src="images/gallery/thumbs/jimandal.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">Personal Work</div>
+										</div>
+									</div>
+								</a>
+								<a class="inline cboxElement" href="projects/z4ltr.html">
+									<div class="thumb-container">
+									<div class="video-thumb">
+										<i class="fas fa-video"></i>
+									</div>
+										<img src="images/gallery/thumbs/blubburbs.jpg">
+										<div class="overlay"></div>
+										<div class="overlay-caption">
+										<div class="thumb-caption">The Blubburbs</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Section D -->
+				<a class="anchor"></a>
+				<section id="section-d">
+					<div class="box">
+						<a id="contact" class="anchor"></a>
+						<div id="contact-me-wrapper">
+							<div id="contact-me">
+								<h2 class="content-title">Let's Work Together</h2>
+								<p>I'm currently accepting design projects.</p>
+								<div class="email"><a href="mailto:jakeransomdesign@gmail.com" target="_blank">EMAIL ME</a></div>
+								<address>jakeransomdesign@gmail.com</address>
+							</div>
+						</div>
+					</div>
+					<a id="about"></a>
+					<div class="box">
+						<div class="about-me-wrapper">
+							<div class="about-me">
+								<div id="avatar-wrapper">
+									<img id="avatar" src="images/avatar7.png">
+								</div>
+								<h3 class="card-title">About Me</h3>
+								<p>Hi, I'm Jake, a freelance artist and designer from Perth, Western Australia.<br />
+								<br />
+								For the past few years I have worked predominantly in animation, where I've been an animator, storyboard artist, and background artist for various animated series and projects. <br />
+								As a graphic designer, I've freelanced for several years now, with my main area of focus being in logo and web design for small local businesses, and illustrated posters for functions and events.<br/>
+								<br/>
+								Currently, I am teaching 2D animation at Curtin University, attending AWARD School, working on various web series, and doing freelance design work.</p>
+							</div>
+						</div>
+					</div>
+
+				</section>
+			</main>
+
+			<!-- Footer -->
+			<footer id="main-footer">
+				<div>©2018</div>
+			</footer>
+		</div>
+
+
+
+		<script>
+			function openNav() {
+				var nav = document.getElementById("accordion");
+				var btn = document.getElementById("menuButton");
+				var overlay = document.getElementById("transparentOverlay");
+				if (nav.style.height < "100px") {
+					btn.style.color = "#2F2E2E";
+					btn.style.backgroundColor = "#fff";
+					nav.style.height = "218px";
+					overlay.style.visibility = "visible";
+					overlay.style.opacity = "0.5";
+
+				} else {
+					nav.style.height = "0px";
+					overlay.style.opacity = "0";
+					overlay.style.visibility = "hidden";
+					btn.style.color = "#ffffff";
+					btn.style.backgroundColor = "#191A1C";
+				}
+			}
+
+			function closeNav() {
+				var nav = document.getElementById("accordion");
+				var btn = document.getElementById("menuButton");
+				var overlay = document.getElementById("transparentOverlay");
+				nav.style.height = "0px";
+				overlay.style.opacity = "0";
+				overlay.style.visibility = "hidden";
+				btn.style.color = "#ffffff";
+				btn.style.backgroundColor = "#191A1C";
+			}
+
+
+
+
+		</script>
+	</body>
+
+</html>

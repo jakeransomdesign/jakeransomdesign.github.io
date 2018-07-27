@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<title>Jake Ransom | Self-portrait </title>
+		<meta name="description" content="Jake Ransom - an animator, illustrator, and designer from Perth, Western Australia">
+		<meta name="keywords" content="Jake Ransom, web design, digital design, graphic design, animation, illustration, Perth designer, Perth web designer, Perth illustrator">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/fontawesome.css">
+		<link rel="stylesheet" type="text/css" href="../css/fa-solid.css">
+		<link rel="stylesheet" type="text/css" href="../css/projects-styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+		<link rel="icon" href="../images/logo1-favicon.png">
+	</head>
+
+	<body>
+
+		<!-- Navbar -->
+		<div id="navbar">
+
+			<!-- Desktop Navbar -->
+			<div class="navbar-1">
+				<div class="logo">
+					<a href="../"><img src="../images/logo1.png" id="logo" alt="logo"></a>
+				</div>
+				<nav class="main-nav">
+					<div class="horizontal-menu">
+						<a href="../">Home</a>
+						<a href="../#work">Work</a>
+						<a href="../#contact">Contact</a>
+						<a href="../#about">About</a>
+					</div>
+				</nav>
+				<nav class="social-media">
+					<a href="https://www.twitter.com/ransomniactoons/" target="_blank">
+						<div class="social-media-icons" id="twitter-icon"></div>
+					</a>
+					<a href="https://www.youtube.com/ransomniaccartoons/" target="_blank">
+						<div class="social-media-icons" id="youtube-icon"></div>
+					</a>
+
+					<a href="https://www.instagram.com/ransomniaccc/" target="_blank">
+						<div class="social-media-icons" id="instagram-icon"></div>
+					</a>
+				</nav>
+			</div>
+
+			<!-- Small Screen Navbar -->
+			<div class="navbar-2">
+				<div class="logo">
+					<a href="../"><img src="../images/logo1.png" id="logo-2" alt="logo"></a>
+				</div>
+
+				<!-- Accordion Menu -->
+				<div id="accordion" class="overlay">
+					<div class="overlay-content">
+						<a href="../">Home</a>
+						<div class="div-line"></div>
+						<a href="../#work">Work</a>
+						<div class="div-line"></div>
+						<a href="../#contact">Contact</a>
+						<div class="div-line"></div>
+						<a href="../#about">About</a>
+					</div>
+				</div>
+				<div class="dropdown-menu">
+					<div id="menuButton" onclick="openNav()" >MENU</div>
+				</div>
+
+				<!-- Social Meadia Links -->
+				<div class="social">
+					<nav class="social-media">
+						<a href="https://www.twitter.com/ransomniactoons/" target="_blank">
+							<div class="social-media-icons" id="twitter-icon-2"></div>
+						</a>
+						<a href="https://www.youtube.com/ransomniaccartoons/" target="_blank">
+							<div class="social-media-icons" id="youtube-icon-2"></div>
+						</a>
+
+						<a href="https://www.instagram.com/ransomniaccc/" target="_blank">
+							<div class="social-media-icons" id="instagram-icon-2"></div>
+						</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!-- Wrapper to give main content a top-margin under the navbar -->
+		<div id="main-wrapper">
+			<div id="transparentOverlay"></div>
+			<a class="mobile-close" href="../#work">
+				<i class="fas fa-angle-left"></i>
+			</a>
+
+			<div class="main-container">
+				<div id="main-container-b">
+					<div id="main">
+
+						<div class="img-wrapper">
+							<img class="projects-img-landscape self-portrait" src="../images/gallery/me.jpg" alt="Jake Ransom Self Portrait">
+							<div class="enlarge-wrapper">
+								<div class="enlarge-button">
+									<a class="btn" href="../images/gallery/me.jpg">
+										<i class="fas fa-expand"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- Side bar -->
+			<aside class="artwork-info">
+				<div class="info-wrapper">
+					<h3 class="project-title">Self-portrait</h3>
+					<p class="project-description">Personal work painted in Photoshop.</p>
+				</div>
+			</aside>
+		</div>
+
+
+
+		<script>
+			function openNav() {
+				var nav = document.getElementById("accordion");
+				var btn = document.getElementById("menuButton");
+				var overlay = document.getElementById("transparentOverlay");
+				if (nav.style.height < "100px") {
+					btn.style.color = "#2F2E2E";
+					btn.style.backgroundColor = "#fff";
+					nav.style.height = "218px";
+					overlay.style.visibility = "visible";
+					overlay.style.opacity = "0.5";
+
+				} else {
+					nav.style.height = "0px";
+					overlay.style.opacity = "0";
+					overlay.style.visibility = "hidden";
+					btn.style.color = "#ffffff";
+					btn.style.backgroundColor = "#191A1C";
+				}
+			}
+
+		</script>
+	</body>
+
+</html>
