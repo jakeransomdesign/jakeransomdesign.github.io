@@ -1021,7 +1021,7 @@ section#intro i {
 }
 
 #email-button address {
-	display: block;
+/*	display: block;     Hid this section when I neutered my website in 2024. Removed when altering copy from 'Email Me' to 'Don't Email Me' in order to have the copy sit on one line */ 
 	margin-top: .5em;
 	font-size: 16px;
 	font-style: normal;
